@@ -22,9 +22,17 @@ import { FormsModule, NgForm } from '@angular/forms';
   <div>    
     <td>
       <input id="first_name" type="text" name="first_name" [(ngModel)]="firstName" ngModel/>
+      <label for="first_name">
+      <br>
+        Fist Name
+      </label>
     </td>
     <td>
       <input id="last_name" type="text" name="last_name" [(ngModel)]="lastName" ngModel/>
+      <label for="last_name">
+      <br>
+        Last Name
+      </label>
     </td>
   </div>                
   <div>
@@ -34,12 +42,14 @@ import { FormsModule, NgForm } from '@angular/forms';
   </div>  
   <div>
     <input id="email" type="email" name="email" placeholder="ex: email@yahoo.com" [(ngModel)]="email" ngModel/>
-  </div>
-  <div>
     <label for="email_note">
-      example@example.com
+    <br>
+      example@example.com      
     </label>
   </div>
+  
+    
+  
   <div>
   </div>
   <div>

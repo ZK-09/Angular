@@ -16,4 +16,16 @@ td {
 
 button {
   padding: 10px 15px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+input + label{
+  font-size: 12px;
+  opacity: 0.5;
+  /* color: gray; */
+}
+
+label {
+  font-weight: bold;
 }
