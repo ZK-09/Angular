@@ -47,11 +47,6 @@ import { FormsModule, NgForm } from '@angular/forms';
       example@example.com      
     </label>
   </div>
-  
-    
-  
-  <div>
-  </div>
   <div>
     <td>
       <button class="button" type="submit"> Submit </button>
@@ -61,7 +56,6 @@ import { FormsModule, NgForm } from '@angular/forms';
     </td>
   </div>
 </form>
-
   `,
 })
 
@@ -71,11 +65,6 @@ export class App {
   lastName : String = '';
   email : String = '';
   names : String = '';
-  // constructor(firstName : any, lastName : any, email : any){
-  //   this.firstName = firstName;
-  //   this.lastName = lastName;
-  //   this.email = email;
-  // }
 
   submit(btnSubmit: any){
     this.names = this.firstName.concat(this.lastName.toString())
